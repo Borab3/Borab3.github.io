@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div>
     <div style={{flexDirection: 'row', justifyContent: 'center', alignItems: 'center', position: 'absolute', padding: 10}}>
-    <div style={{paddingLeft: 180}}>
+    <div style={{paddingLeft: 240}}>
     <button style={{flex: 1, marginRight: 15, justifyContent: 'center', alignItems: 'center',}} class="button button-outline" onClick={() => reactSwipeEl.prev()}>&#60;</button>
     <button style={{flex: 1, marginLeft: 15, marginRight: 15, justifyContent: 'center', alignItems: 'center',}} class="button button-outline" onClick={() => reactSwipeEl.next()}>&#62;</button>
     </div>
@@ -22,14 +22,14 @@ const App = () => {
         ref={el => (reactSwipeEl = el)}
       >
     <div  style={{flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
-    <div style={{marginLeft: 200, marginRight: 200}}>
+    <div style={{marginLeft: 200, marginRight: 200, justifyContent: 'center', alignItems: 'center' }}>
     <div>
       <p class="c46"><span class="c20 c32 c37 c39"></span></p><a id="t.f82e6414dd2671f5a220d05dddaee164dff59966"></a><a id="t.0"></a>
     <table class="c40">
       <tbody>
         <tr class="c38">
           <td class="c36" colspan="1" rowspan="1">
-            <p class="c19"><span class="c10 c17">&nbsp; &nbsp; &nbsp; </span><span class="c17 c10">Nadiv Gold Edelstein</span></p>
+            <p class="c19"><span class="c10 c17"></span><span class="c17 c10">Nadiv Gold Edelstein</span></p>
           </td>
           <td class="c23" colspan="1" rowspan="1">
             <p class="c29"><span class="c1">PO Box 270249</span></p>
@@ -64,13 +64,13 @@ const App = () => {
             <h2 class="c16" id="h.bthptklwivv"><span class="c33">Centaurus High School (Diploma); GED (2017)</span><span class="c12"></span><br></br><span class="c11 c3">2014 - 2018</span></h2>
           </td>
           <td class="c23" colspan="1" rowspan="1">
-            <p class="c19"><span class="c22 c14">COMPUTING QUALIFICATIONS</span></p>
+            <p class="c199"><span class="c22 c14">COMPUTING QUALIFICATIONS</span></p>
             <p class="c4"><span class="c0"></span></p>
-            <p class="c19"><span class="c15 c3">Java, Python, C++, JS, and select libraries (OpenCV, Pytesseract, React/Native)</span></p>
-            <p class="c19"><span class="c15 c3">Working knowledge of Linux Systems (Arch Linux, Debian)</span></p>
-            <p class="c19"><span class="c15 c3">Two years of IB/AP accredited level Computer Science Courses</span></p>
-            <p class="c19"><span class="c3 c15">Data Structures, Computer Systems, Software Development at &nbsp;CU Boulder</span></p>
-            <p class="c19"><span class="c15 c3">3D Printing</span></p>
+            <p class="c199"><span class="c15 c3">Java, Python, C++, JS, and select libraries (OpenCV, Pytesseract, React/Native)</span></p>
+            <p class="c199"><span class="c15 c3">Working knowledge of Linux Systems (Arch Linux, Debian)</span></p>
+            <p class="c199"><span class="c15 c3">Two years of IB/AP accredited level Computer Science Courses</span></p>
+            <p class="c199"><span class="c3 c15">Data Structures, Computer Systems, Software Development at &nbsp;CU Boulder</span></p>
+            <p class="c199"><span class="c15 c3">3D Printing</span></p>
             <h1 class="c26" id="h.eem4hmaveqpn"><span class="c14 c22">PROJECTS</span></h1>
             <p class="c4"><span class="c0"></span></p>
             <ul class="c42 lst-kix_d52h1clnbs3c-0 start">

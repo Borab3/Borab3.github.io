@@ -340,6 +340,16 @@ table th {
 }
 
 .c19 {
+  margin-left: 36pt;
+  padding-top: 6pt;
+  padding-bottom: 0pt;
+  line-height: 1.3;
+  text-align: left;
+  margin-right: 15pt
+}
+
+
+.c199 {
   padding-top: 6pt;
   padding-bottom: 0pt;
   line-height: 1.3;
@@ -355,7 +365,6 @@ table th {
 }
 
 .c40 {
-  margin-left: -42.8pt;
   border-spacing: 0;
   border-collapse: collapse;
   margin-right: auto
