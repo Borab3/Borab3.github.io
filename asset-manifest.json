@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Borab3.github.io/static/css/main.50062b1f.chunk.css",
-    "main.js": "/Borab3.github.io/static/js/main.bc56849a.chunk.js",
-    "main.js.map": "/Borab3.github.io/static/js/main.bc56849a.chunk.js.map",
-    "runtime-main.js": "/Borab3.github.io/static/js/runtime-main.2041efab.js",
-    "runtime-main.js.map": "/Borab3.github.io/static/js/runtime-main.2041efab.js.map",
-    "static/js/2.c8b29a1a.chunk.js": "/Borab3.github.io/static/js/2.c8b29a1a.chunk.js",
-    "static/js/2.c8b29a1a.chunk.js.map": "/Borab3.github.io/static/js/2.c8b29a1a.chunk.js.map",
-    "index.html": "/Borab3.github.io/index.html",
-    "precache-manifest.fb6604292a76d681d323796fd0e21aee.js": "/Borab3.github.io/precache-manifest.fb6604292a76d681d323796fd0e21aee.js",
-    "service-worker.js": "/Borab3.github.io/service-worker.js",
-    "static/css/main.50062b1f.chunk.css.map": "/Borab3.github.io/static/css/main.50062b1f.chunk.css.map",
-    "static/js/2.c8b29a1a.chunk.js.LICENSE.txt": "/Borab3.github.io/static/js/2.c8b29a1a.chunk.js.LICENSE.txt"
+    "main.css": "/nadivfolio.space/static/css/main.50062b1f.chunk.css",
+    "main.js": "/nadivfolio.space/static/js/main.bca6c688.chunk.js",
+    "main.js.map": "/nadivfolio.space/static/js/main.bca6c688.chunk.js.map",
+    "runtime-main.js": "/nadivfolio.space/static/js/runtime-main.a6bfe47e.js",
+    "runtime-main.js.map": "/nadivfolio.space/static/js/runtime-main.a6bfe47e.js.map",
+    "static/js/2.c8b29a1a.chunk.js": "/nadivfolio.space/static/js/2.c8b29a1a.chunk.js",
+    "static/js/2.c8b29a1a.chunk.js.map": "/nadivfolio.space/static/js/2.c8b29a1a.chunk.js.map",
+    "index.html": "/nadivfolio.space/index.html",
+    "precache-manifest.8bb5da250af75d1c96d2c88d0ffdd732.js": "/nadivfolio.space/precache-manifest.8bb5da250af75d1c96d2c88d0ffdd732.js",
+    "service-worker.js": "/nadivfolio.space/service-worker.js",
+    "static/css/main.50062b1f.chunk.css.map": "/nadivfolio.space/static/css/main.50062b1f.chunk.css.map",
+    "static/js/2.c8b29a1a.chunk.js.LICENSE.txt": "/nadivfolio.space/static/js/2.c8b29a1a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2041efab.js",
+    "static/js/runtime-main.a6bfe47e.js",
     "static/js/2.c8b29a1a.chunk.js",
     "static/css/main.50062b1f.chunk.css",
-    "static/js/main.bc56849a.chunk.js"
+    "static/js/main.bca6c688.chunk.js"
   ]
 }
