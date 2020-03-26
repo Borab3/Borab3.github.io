@@ -7,10 +7,11 @@ import './App.css';
 const App = () => {
   let reactSwipeEl;
 
+
   return (
     <div>
     <div style={{flexDirection: 'row', justifyContent: 'center', alignItems: 'center', position: 'absolute', padding: 10}}>
-    <div style={{paddingLeft: 240}}>
+    <div style={{paddingLeft: 100}}>
     <button style={{flex: 1, marginRight: 15, justifyContent: 'center', alignItems: 'center',}} class="button button-outline" onClick={() => reactSwipeEl.prev()}>&#60;</button>
     <button style={{flex: 1, marginLeft: 15, marginRight: 15, justifyContent: 'center', alignItems: 'center',}} class="button button-outline" onClick={() => reactSwipeEl.next()}>&#62;</button>
     </div>
@@ -21,8 +22,56 @@ const App = () => {
         swipeOptions={{ continuous: false }}
         ref={el => (reactSwipeEl = el)}
       >
+
+
+      <div  style={{flexDirection: 'column', justifyContent: 'center', alignItems: 'center', paddingTop: 30}}>
+        <div style={{marginLeft: 110, marginRight: 110}}>
+        <div style={{display: 'flex', flexDirection: 'row', paddingBottom: 15}}>
+          <div style={{flex: 1}}>
+            <h3 style={{fontSize: 20, color: "#9b4dca"}}>Cover</h3>
+          </div>
+          <div style={{flex: 1}}>
+            <h3 style={{fontSize: 20}}>Resume</h3>
+          </div>
+          <div style={{flex: 1}}>
+            <h3 style={{fontSize: 20}}>Projects</h3>
+          </div>
+        </div>
+          <div style={{display: 'flex', flexDirection: 'row'}}>
+            <img  style={{ maxHeight: 400, maxWidth: 400, marginRight: 20}} src={ require('./img/profile.jpg') } class="rounded" alt="alt" />
+            <div style={{display: 'flex', flexDirection: 'column'}}>
+              <h3 style={{fontSize: 40}}>Hi, I'm Nadiv Gold Edelstein</h3>
+              <p style={{fontSize: 20}}>I'm a sophomore at University of Colorado at Boulder studying CS. I enjoy full stack development, teaching computer science, and being strongly opinionated about code.</p>
+              <p style={{fontSize: 20, color: "#9b4dca"}}>On mobile?</p>
+              <p style={{fontSize: 20}}>Try swiping</p>
+              <p style={{fontSize: 20, color: "#9b4dca"}}>On desktop?</p>
+              <p style={{fontSize: 20}}>Click the little arrow buttons at the top left</p>
+              <p style={{fontSize: 20, color: "#9b4dca"}}>On a smart fridge?</p>
+              <p style={{fontSize: 20}}>Sorry, you're out of luck</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
     <div  style={{flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
-    <div style={{marginLeft: 200, marginRight: 200, justifyContent: 'center', alignItems: 'center' }}>
+    <div style={{marginLeft: 60, marginRight: 60, justifyContent: 'center', alignItems: 'center' }}>
+    <div  style={{flexDirection: 'column', justifyContent: 'center', alignItems: 'center', paddingTop: 30}}>
+    <div style={{marginLeft: 50, marginRight: 50}}>
+    <div style={{display: 'flex', flexDirection: 'row'}}>
+      <div style={{flex: 1}}>
+        <h3 style={{fontSize: 20}}>Cover</h3>
+      </div>
+      <div style={{flex: 1}}>
+        <h3 style={{fontSize: 20, color: "#9b4dca"}}>Resume</h3>
+      </div>
+      <div style={{flex: 1}}>
+        <h3 style={{fontSize: 20}}>Projects</h3>
+      </div>
+    </div>
+    </div>
+    </div>
     <div>
       <p class="c46"><span class="c20 c32 c37 c39"></span></p><a id="t.f82e6414dd2671f5a220d05dddaee164dff59966"></a><a id="t.0"></a>
     <table class="c40">
@@ -72,7 +121,6 @@ const App = () => {
             <p class="c199"><span class="c3 c15">Data Structures, Computer Systems, Software Development at &nbsp;CU Boulder</span></p>
             <p class="c199"><span class="c15 c3">3D Printing</span></p>
             <h1 class="c26" id="h.eem4hmaveqpn"><span class="c14 c22">PROJECTS</span></h1>
-            <p class="c4"><span class="c0"></span></p>
             <ul class="c42 lst-kix_d52h1clnbs3c-0 start">
               <li class="c19 c24"><span class="c27 c35">MOIR&Eacute; PATTERN REMOVER</span></li>
               <li class="c19 c24"><span class="c15 c3">Final project for IB Computer Science, used fourier transforms in an attempt to remove obstructions.</span></li>
@@ -100,37 +148,135 @@ const App = () => {
     </div>
     </div>
 
-    <div  style={{flexDirection: 'column', justifyContent: 'center', alignItems: 'center', paddingTop: 30}}>
-      <div style={{marginLeft: 200, marginRight: 200}}>
-        <p>Pane 2</p>
-      </div>
-    </div>
-
-
 
 
     <div  style={{flexDirection: 'column', justifyContent: 'center', alignItems: 'center', paddingTop: 30}}>
-      <div style={{marginLeft: 200, marginRight: 200}}>
-        <p>Pane 3</p>
+      <div style={{marginLeft: 110, marginRight: 110}}>
+      <div style={{display: 'flex', flexDirection: 'row'}}>
+        <div style={{flex: 1}}>
+          <h3 style={{fontSize: 20}}>Cover</h3>
+        </div>
+        <div style={{flex: 1}}>
+          <h3 style={{fontSize: 20}}>Resume</h3>
+        </div>
+        <div style={{flex: 1}}>
+          <h3 style={{fontSize: 20, color: "#9b4dca"}}>Projects</h3>
+        </div>
+      </div>
+        <div style={{ display: 'flex', flexDirection: 'row', flex: 1}}>
+
+        <div class="card" style={{marginRight: 20, marginTop: 20, marginBottom: 20, flex: 1, flexDirection: 'column'}}>
+        <div class='zoom'>
+          <img class="card-img-top" src={ require('./img/vido.png') } alt="vido" />
+        </div>
+          <div class="card-body">
+            <h5 class="card-title">Project Vido</h5>
+            <p class="card-text">A video summarization platform that takes videos and returns a condenced version in video form. Placed 3rd overall at HackCU 2020.</p>
+            <a href="https://github.com/ZackJorquera/Vido" class="button">GitHub</a>
+          </div>
+        </div>
+
+          <div class="card" style={{margin: 20, flex: 1,flexDirection: 'column'}}>
+          <div class='zoom'>
+            <img class="card-img-top" src={ require('./img/hackcu2019.PNG') } alt="hackcu2019"/>
+          </div>
+            <div class="card-body">
+              <h5 class="card-title">HackCU V 2019</h5>
+              <p class="card-text">Embeded systems solution to track packages and notify the recipient of damage. Recieved Rapid API prize at HackCU 2019.</p>
+              <a href="https://github.com/ZackJorquera/HackCUV2019" class="button">GitHub</a>
+            </div>
+          </div>
+
+          <div class="card" style={{marginLeft: 20, marginTop: 20, marginBottom: 20, flex: 1,flexDirection: 'column'}}>
+          <div class='zoom'>
+            <img class="card-img-top" src={ require('./img/textbook.jpg') } alt="textbook" />
+          </div>
+            <div class="card-body">
+              <h5 class="card-title">OCR Textbook</h5>
+              <p class="card-text">A textbook scanner that builds images into a pdf, with searchable text thanks to OCR. Because textbooks are expensive.</p>
+              <a href="https://github.com/Borab3/OCRTextbook" class="button">GitHub</a>
+            </div>
+          </div>
+
+      </div>
+
+      <div style={{ display: 'flex', flexDirection: 'row', flex: 1}}>
+
+      <div class="card" style={{marginRight: 20, marginTop: 20, marginBottom: 20, flex: 1, flexDirection: 'column'}}>
+      <div class='zoom'>
+        <img class="card-img-top" src={ require('./img/leafarea.jpg') } alt="leaf"  style={{maxHeight: 300}} />
+      </div>
+        <div class="card-body">
+          <h5 class="card-title">Leaf Area</h5>
+          <p class="card-text">A macro that automates finding the area of a leaf scan. Made for the University of Colorado Biology department.</p>
+          <a href="#" class="button">GitHub</a>
+        </div>
+      </div>
+
+        <div class="card" style={{margin: 20, flex: 1,flexDirection: 'column'}}>
+        <div class='zoom'>
+          <img class="card-img-top" src={ require('./img/event-loop-explained.jpg') } alt="event loop explained" style={{maxHeight: 500}}/>
+        </div>
+          <div class="card-body">
+            <h5 class="card-title">The Event Loop Explained</h5>
+            <p class="card-text">Article written for Section.io about the JavaScript Event Loop.</p>
+            <a href="https://www.section.io/engineering-education/event-loop-explained/" class="button">Read</a>
+          </div>
+        </div>
+
+        <div class="card" style={{marginLeft: 20, marginTop: 20, marginBottom: 20, flex: 1,flexDirection: 'column'}}>
+        <div class='zoom'>
+          <img class="card-img-top" src={ require('./img/moire.jpg') } alt="moire" />
+        </div>
+          <div class="card-body">
+            <h5 class="card-title">Moiré Remover</h5>
+            <p class="card-text">Use OpenCV to remove moiré interference patterns by removing the most contributing sinusoids. Built for IB computer science final project. </p>
+            <a href="https://github.com/Borab3/Morie-Pattern-Remover" class="button">GitHub</a>
+          </div>
+        </div>
+
+    </div>
+
+    <div style={{ display: 'flex', flexDirection: 'row', flex: 1}}>
+
+    <div class="card" style={{marginRight: 20, marginTop: 20, marginBottom: 20, flex: 1, flexDirection: 'column'}}>
+    <div class='zoom'>
+      <img class="card-img-top" src={ require('./img/pip.png') } alt="pip"  style={{maxHeight: 300}} />
+    </div>
+      <div class="card-body">
+        <h5 class="card-title">DailyPIPs</h5>
+        <p class="card-text">A launcher for the PIPs Rewards app to generate pip automatically. Currently in closed beta and only for Android.</p>
+        <a href="#" class="button">Download App</a>
       </div>
     </div>
 
-
-
-    <div  style={{flexDirection: 'column', justifyContent: 'center', alignItems: 'center', paddingTop: 30}}>
-      <div style={{marginLeft: 200, marginRight: 200}}>
-        <p>Pane 4</p>
+      <div class="card" style={{margin: 20, flex: 1,flexDirection: 'column'}}>
+      <div class='zoom'>
+        <img class="card-img-top" src={ require('./img/javascript-hoisting.jpg') } alt="javascript-hoisting" style={{maxHeight: 500}}/>
       </div>
-    </div>
-
-
-
-
-    <div  style={{flexDirection: 'column', justifyContent: 'center', alignItems: 'center', paddingTop: 30}}>
-      <div style={{marginLeft: 200, marginRight: 200}}>
-        <p>Pane 5</p>
+        <div class="card-body">
+          <h5 class="card-title">A Primer on JavaScript Hoisting</h5>
+          <p class="card-text">Article written for Section.io about hoisting in JavaScript and other interpreted languages.</p>
+          <a href="https://www.section.io/engineering-education/event-loop-explained/" class="button">Read</a>
+        </div>
       </div>
+
+      <div class="card" style={{marginLeft: 20, marginTop: 20, marginBottom: 20, flex: 1,flexDirection: 'column', visibility: 'hidden'}}>
+      <div class='zoom'>
+        <img class="card-img-top" src={ require('./img/vido.png') } alt="vido" />
+      </div>
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="button">Go somewhere</a>
+        </div>
+      </div>
+
+  </div>
+
     </div>
+  </div>
+
 
 
 

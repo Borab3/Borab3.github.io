@@ -608,3 +608,22 @@ h6 {
   font-style: italic;
   text-align: left
 }
+
+.card-title{
+  color: black;
+  font-size: 15pt;
+}
+
+.zoom{
+  display: inline-block;
+  overflow: hidden;
+}
+
+.card-img-top{
+  overflow: hidden;
+}
+
+.card-img-top:hover {
+  transition: transform .2s;
+  transform: scale(1.3);
+}
